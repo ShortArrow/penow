@@ -1,0 +1,25 @@
+{
+  "name": "penow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "chrome-aws-lambda": "^10.0.0",
+    "firebase-admin": "^9.10.0",
+    "puppeteer-core": "^10.0.0"
+  },
+  "devDependencies": {
+    "serverless-layers": "^2.5.0-beta"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy",
+    "run": "serverless invoke --function handler",
+    "deploy_run": "serverless deploy && serverless invoke --function handler"
+  },
+  "author": "",
+  "license": "ISC",
+  "config": {
+    "puppeteer_download_path": "./node_modules/puppeteer/.local-chromium"
+  }
+}

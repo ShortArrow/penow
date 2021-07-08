@@ -1,0 +1,8 @@
+{
+    "message": "Go Serverless v1.0! Your function executed successfully!",
+    "event": {
+        "key3": "value3",
+        "key2": "value2",
+        "key1": "value1"
+    }
+}
